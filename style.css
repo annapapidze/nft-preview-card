@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  max-height: 100vh;
+}
+body {
+  background-color: hsl(217, 54%, 11%);
+  display: block;
+  margin: 8px;
+}
+.equ_h4 {
+  color: white;
+  display: inline-block;
+  font-family: 'Outfit';
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  margin-block-start: 29.26px;
+}
+.container {
+  background-color: hsl(216, 50%, 16%);
+    width: 350px;
+    margin: 152px auto;
+    border-radius: 15px;
+    box-shadow: 0px 25px 50px rgb(0 0 0 / 10%);
+}
+.nft {
+  padding: 24px 0;
+  width: 302px;
+  margin: 0 auto;
+
+}
+.box_div {
+  border-radius: 8px;
+  width: 302px;
+  position: relative;
+}
+.main_img {
+  display: block;
+  border-radius: 8px;
+  height: 100%;
+  width: 100%;
+}
+.overlay_div {
+  background-color: rgba(0, 255, 247, 0.6);
+  position: absolute;
+  display: flex;
+  border-radius: 8px;
+  width: 302px;
+  height: 302px;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  top: 0;
+  left: 0;
+}
+.overlay_div:hover {
+  cursor: pointer;
+  border-radius: 8px;
+  opacity: 1;
+}
+.view {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  top: 120px;
+}
+.overlay_box {
+  display: block;
+  height: 52px;
+  width: 48px;
+}
+.para_div {
+  display: block;
+  height: 282.25px;
+  width: 302px;
+}
+.text_div {
+  display: block;
+  width: 302px;
+  height: 127.25px;
+}
+.para_text {
+  position: absolute;
+  display: block;
+  font-family: "Outfit";
+  font-style: normal;
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+    line-height: 26px;
+    font-weight: 300;
+    margin-block-end: 18px;
+    margin-block-start: 18px;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+    width: 302px;
+    height: 52px;
+}
+.data_div {
+  height: 52px;
+  width: 302px;
+  display: flex;
+    justify-content: space-between;
+}
+.nft_eth {
+  display: flex;
+    align-items: center;
+    column-gap: 7.7px;
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+    font-family: "Rubik", sans-serif;
+    line-height: 20px;
+    font-size: 16px;
+}
+.nft_clock {
+  display: flex;
+    align-items: center;
+    column-gap: 7.7px;
+    color: hsl(215, 51%, 70%);
+    font-weight: 600;
+    font-family: "Rubik", sans-serif;
+    line-height: 20px;
+    font-size: 16px;
+}
+.clock_img {
+  color: hsl(215, 51%, 70%);
+}
+.line {
+  height: 1px;
+    background-color: hsl(215, 51%, 70%);
+    margin: 16px 0;
+}
+.avatar_div {
+  display: flex;
+    align-items: center;
+    column-gap: 16px;
+}
+.avatar_img {
+  border-radius: 50%;
+    border: 1px solid white;
+    width: 33px;
+}
+.creator_text {
+  font-family: "Outfit";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #8bacd9;
+}
+.data_div {
+  display: flex;
+  justify-content: space-between;
+}
+.main_img
+.equ_h4
+.name {
+  cursor: pointer;
+}
+.equ_h4:hover,
+.name:hover {
+  color: hsl(178, 100%, 50%);
+}
+.equ_h4:hover + .overlay_div {
+  cursor: pointer;
+  border-radius: 1em;
+  opacity: 1;
+  background-color: rgba(0, 255, 247, 0.6);
+}
+.name {
+  color: white;
+}
